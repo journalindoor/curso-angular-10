@@ -1,4 +1,3 @@
-import { Route } from '@angular/compiler/src/core';
 import { Routes } from '@angular/router';
 
 import { ListarTarefaComponent } from './listar';
@@ -9,7 +8,7 @@ export const TarefaRoutes: Routes = [
     redirectTo: 'tarefas/listar'
   },
   {
-    path: 'tarefas/lista',
+    path: 'tarefas/listar',
     component: ListarTarefaComponent
   },
 ];
